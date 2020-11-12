@@ -61,7 +61,7 @@ function setup() {
   box38 = new BlueBox(550,45,20,30);
   box39 = new GreenBox(570,45,20,30);
 
-  ball = new Ball(170,200,50);
+  ball = new Ball(170,200,30);
 
   spring = new Projectile(ball.body,{x:200,y:200});
 
